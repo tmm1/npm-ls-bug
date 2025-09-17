@@ -1,5 +1,5 @@
 {
-  "name": "@internal/utils",
+  "name": "@internal/helper",
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
@@ -8,7 +8,7 @@
   "author": "",
   "license": "ISC",
   "description": "",
-  "devDependencies": {
-    "@swc/core": "1.13.5"
+  "dependencies": {
+    "@internal/utils": "file:../utils"
   }
 }

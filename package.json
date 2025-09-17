@@ -8,7 +8,7 @@
   "author": "",
   "license": "ISC",
   "description": "",
-  "dependencies": {
-    "utils": "file:./packages/utils"
+  "devDependencies": {
+    "@internal/helper": "file:./packages/helper"
   }
 }
