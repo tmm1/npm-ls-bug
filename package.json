@@ -8,7 +8,17 @@
   "author": "",
   "license": "ISC",
   "description": "",
+  "dependencies": {
+    "ts-node": "^10.9.1",
+    "typescript": "6.0.0-dev.20250827"
+  },
   "devDependencies": {
     "@internal/helper": "file:./packages/helper"
+  },
+  "overrides": {
+    "esbuild": "0.25.9",
+    "ts-node": {
+      "typescript": "$typescript"
+    }
   }
 }

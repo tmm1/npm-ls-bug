@@ -8,7 +8,12 @@
   "author": "",
   "license": "ISC",
   "description": "",
+  "dependencies": {
+    "path-browserify": "^1.0.1"
+  },
   "devDependencies": {
-    "@swc/core": "1.13.5"
+    "@types/path-browserify": "^1.0.3",
+    "tsx": "^4.0.0",
+    "typescript": "^5.0.0"
   }
 }
