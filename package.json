@@ -9,10 +9,10 @@
   "license": "ISC",
   "description": "",
   "dependencies": {
-    "ts-node": "^10.9.1",
     "typescript": "6.0.0-dev.20250827"
   },
   "devDependencies": {
+    "ts-node": "^10.9.1",
     "@internal/helper": "file:./packages/helper"
   },
   "overrides": {
